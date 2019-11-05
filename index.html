@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js" ></script>
+    <title>MTM Theater</title>
+  </head>
+  <body>
+    <div class="container">
+    <form method="post">
+      <h4> Pick a time: </h4>
+      <select name="showTimes">
+        <option value=8> 8AM  </option>
+        <option value=10> 10AM </option>
+        <option value=16> 4PM  </option>
+        <option value=20> 8PM  </option>
+        <option value=22> 10PM  </option>
+      </select>
+      <h4>Please input your age!</h4>
+      <input id ="age" type="number"> <br>
+      <h4> Select a movie </h4>
+      <input type="radio" name="movies" value="Joker"> Joker  <br>
+      <input type="radio" name="movies" value="Casablanca"> Casablanca <br>
+      <input type="radio" name="movies" value="The Devil's Advocate"> The Devil's Advocate <br>
+      <input type="radio" name="movies" value="Transformers"> Transformers <br>
+      <input type="radio" name="movies" value="Fight Club"> Fight Club<br>
+
+      <button type="submit" name="button">Submit</button>
+    </form>
+    <h4>Your ticket:</h4>
+    <div class="total">
+    </div>
+
+  </div>
+  </body>
+</html>
